@@ -1,0 +1,23 @@
+Pi Estimation using Monte Carlo Method on GPU
+=============================================
+Configuration:
+- Threads per block: 256
+- Blocks per grid: 1024
+- Total threads: 262144
+- Iterations per thread: 10000
+- Total samples: 2,621,440,000
+- Time taken: 0.7777 seconds
+
+Results:
+---------------------------------------------
+Estimated Pi: 3.141656756591797
+True Pi:      3.141592653589793
+Error:        0.000064103002004
+
+Digits of Pi:
+---------------------------------------------
+Estimated Pi digits: 3.141656756591797
+True Pi digits:      3.141592653589793
+
+First 50 digits of estimated Pi: 3.14165675659179699508172234345693141222000122070312
+First 50 digits of true Pi:      3.14159265358979311599796346854418516159057617187500
